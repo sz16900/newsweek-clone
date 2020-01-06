@@ -1,0 +1,102 @@
+/* RESET */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  pointer-events: none;
+}
+
+
+/* NAVBAR */
+
+.nw-navbar {
+  background-color: #f72210;
+}
+
+.date {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #FFF;
+}
+
+#Layer_1 {
+  enable-background: new 0 0 395.6 60;
+}
+
+.nw-logo {
+  fill: #fff;
+  display: block;
+  width: 132px;
+  height: 20px;
+  margin-bottom: 7px;
+}
+
+.arrow-right {
+  height: 20px;
+  width: 14px;
+
+  /* I need to change the color of this svg image */
+
+  /* background-color: #f72210; */
+}
+
+.sign-in {
+  color: white;
+  margin-right: 10px;
+}
+
+.subscribe {
+  background: #fff;
+  color: #f72210;
+  padding: 0 5px 0 5px;
+}
+
+.p-2 {
+  padding: 0 0 0 0;
+}
+
+button[data-toggle="collapse"] {
+  background-color: white;
+}
+
+.topics {
+    width: 90%;
+    border-bottom: 2px solid #f4f5f6;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+    padding: 15px 0 15px
+}
+
+.topics li {
+    display: inline;
+
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 992px) {
+
+    .nw-logo {
+        width: 396px;
+        height: 60px;
+        margin: 10px 0 10px 0;  
+    }
+
+    .right-auth {
+        margin-bottom: 10px ;
+    }
+}
