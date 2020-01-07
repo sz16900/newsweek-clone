@@ -14,7 +14,8 @@ a {
 }
 
 a:hover {
-  pointer-events: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 
@@ -52,6 +53,17 @@ a:hover {
   /* background-color: #f72210; */
 }
 
+.menu-sm {
+  width: 48px;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-left: 1px solid #eee;
+  color: #FFF;
+  font-size: 25px;
+}
+
 .sign-in {
   color: white;
   margin-right: 10px;
@@ -83,11 +95,32 @@ button[data-toggle="collapse"] {
 
 .topics li {
     display: inline;
+    font-weight: 600;
+}
 
+.topics li:hover {
+  color: #f72210;
+}
+
+.topics li:hover:last-child {
+  color: rgba(0,0,0,.55);
+}
+
+.search {
+  font-size: 14px;
+  color: rgba(0,0,0,.55);
 }
 
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 469px) {
+  
+  .right-auth a {
+    font-size: 12px;
+  }
+
+}
+
 @media screen and (min-width: 992px) {
 
     .nw-logo {
@@ -100,3 +133,4 @@ button[data-toggle="collapse"] {
         margin-bottom: 10px ;
     }
 }
+
