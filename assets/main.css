@@ -293,6 +293,32 @@ img {
   cursor: pointer;
 }
 
+/* CONVERSATION */
+
+.convo-row-container {
+  display: flex;
+  width: 100%;
+}
+
+.n-title {
+  display: flex;
+  justify-content: center;
+}
+
+.n-icon {
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat#f72210;
+  margin-right: 10px;
+}
+
+.convo-title {
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  margin-bottom: 15px;
+  padding-top: 4px;
+}
+
 
 
 /* MEDIA QUERIES */
