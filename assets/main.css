@@ -43,18 +43,9 @@ a:hover {
   height: 20px;
   margin-bottom: 7px;
 }
-
-.right-auth {
-  z-index: ;
-}
-
 .arrow-right {
   height: 20px;
   width: 14px;
-
-  /* I need to change the color of this svg image */
-
-  /* background-color: #f72210; */
 }
 
 .menu-sm {
@@ -95,6 +86,11 @@ button[data-toggle="collapse"] {
   font-family: "Roboto Condensed", sans-serif;
   padding: 15px 0 15px;
   margin-bottom: 0;
+}
+
+.topics-li a {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .topics-wrapper::after {
@@ -161,14 +157,6 @@ img {
   margin: 5px 0 20px 0;
 }
 
-/* .left {
-  padding: 0 5px 0 5px;
-} */
-
-/* .middle {
-
-} */
-
 .top-story-title {
   margin-top: 8px;
   font-weight: bolder;
@@ -185,13 +173,65 @@ img {
   border-bottom: 1px solid gray;
 }
 
+/* MIDDLE */
 .top-story-subtitle:hover { 
   color: #f72210;
 }
 
-/* .right {
-  padding: 0 5px 0 5px;
-} */
+.culture-travel {
+  background-color: #F4F5F7;
+}
+
+.culture-card {
+  margin-bottom: 15px;
+}
+
+.culture-title {
+  margin-top: 10px;
+  font: 20px "Lora",serif;
+  padding: 0 10px 0 10px;
+
+}
+
+.culture-para {
+  font-style: "Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-size: 16px;
+  color:rgba(39,39,39,.5);
+  margin-bottom: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.travel-btn {
+  display: inline-block;
+  background-color:#c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.travel-btn:hover {
+  color:#c2d4d7;
+  background-color: #272727;
+
+} 
+
+.more-news-card h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.more-news-card h6:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+  cursor: pointer;
+}
+
+.more-news-para {
+  font-size: 14px;
+}
+
+/* RIGHT */
 
 .opinion-card {
   display: flex;
@@ -221,14 +261,22 @@ img {
   font-size: 14px;
 }
 
-.latest-card {
+.latest-card,
+.more-news-card {
   display: flex;
   padding-bottom: 8px;
   border-bottom: 1px solid gray;
   margin-top: 10px;
 }
 
-.latest-card img {
+.more-news-card {
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  border-bottom: none;
+}
+
+.latest-card img,
+.more-news-pic {
   height: 90px;
   width: 135px;
   padding-right: 10px;
@@ -250,9 +298,14 @@ img {
 /* MEDIA QUERIES */
 
 @media (max-width: 755px) and (min-width: 470px) {
-  .latest-card img {
+  .latest-card img,
+  .more-news-pic {
     height: 172px;
     width: 258px;
+  }
+
+  .more-news-para {
+    font-size: 17px;
   }
 }
 
