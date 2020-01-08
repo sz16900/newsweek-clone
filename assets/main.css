@@ -129,9 +129,15 @@ img {
   padding-top: 10px;
 }
 
-.news-container {
+.news-container,
+.convo-container,
+.vid-info-container {
   padding: 0;
   max-width: 95%;
+}
+
+.vi-row {
+  justify-content: space-between;
 }
 
 .news-card {
@@ -293,12 +299,7 @@ img {
   cursor: pointer;
 }
 
-/* CONVERSATION */
-
-.convo-row-container {
-  display: flex;
-  width: 100%;
-}
+/* NEWSWEEK TITLE */
 
 .n-title {
   display: flex;
@@ -313,12 +314,74 @@ img {
   margin-right: 10px;
 }
 
+/* CONVERSATIONS */
+
+.vid-left,
+.vid-mid,
+.vid-right {
+  background-color: black;
+  color: #eee;
+}
+
+.vid-right h5 {
+  color: #eee;
+  font-size: 18px;
+}
+
+.vl-pad {
+  padding: 25px;
+}
+
+.no-gutter {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .convo-title {
   font: bold 19px/19px "Roboto Condensed",sans-serif;
   margin-bottom: 15px;
   padding-top: 4px;
 }
 
+.vid-cover {
+  background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
+  display: block;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vid-pic {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vid-content h5:hover,
+.conv-title:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+  cursor: pointer;
+}
+
+.vp-1 {
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+}
+
+.vp-2 {
+  background-image: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f");
+}
+
+.vp-3 {
+  background-image: url("https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg?w=173&h=104&f=654768a75c92e3ead489a0ab7a1ae31f");
+}
+
+.vid-info {
+  background-color: black;
+  padding-top: 15px;
+}
 
 
 /* MEDIA QUERIES */
@@ -339,6 +402,18 @@ img {
   .right-auth a {
     font-size: 12px;
   }
+}
+
+@media screen and (max-width: 755px) {
+    .vid-cover {
+      max-width: 486px; 
+      min-height: 300px;
+    }
+
+    .vid-pic {
+      max-width: 173px;
+    }
+  
 }
 
 @media screen and (min-width: 992px) {
