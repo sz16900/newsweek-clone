@@ -11,13 +11,13 @@
 ## Screenshots
 
 ### Web
-![Web](images/nw-desktop.png)
+![Web](https://github.com/sz16900/newsweek-clone/blob/final-details/images/nw-desktop.png?raw=true)
 
 ### Tablet
-![Tablet](images/nw-phone.png)
+![Tablet](https://github.com/sz16900/newsweek-clone/blob/final-details/images/nw-phone.png?raw=true)
 
 ### Mobile
-![Mobile](images/nw-tablet.png)
+![Mobile](https://github.com/sz16900/newsweek-clone/blob/final-details/images/nw-tablet.png?raw=true)
 
 
 ---
