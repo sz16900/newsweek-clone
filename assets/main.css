@@ -292,8 +292,6 @@ img {
 
 /* NEWSWEEK TITLE */
 
-
-
 .n-icon {
   display: block;
   width: 29px;
@@ -625,5 +623,4 @@ img {
   .tf-si {
     justify-content: start !important;
   }
-
 }
