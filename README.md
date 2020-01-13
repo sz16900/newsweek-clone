@@ -35,7 +35,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://sz16900.github.io/newsweek-clone)
+[Live Demo Link](https://raw.githack.com/sz16900/newsweek-clone/final-details/index.html)
 
 ---
 
