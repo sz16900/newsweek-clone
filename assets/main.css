@@ -28,10 +28,6 @@ img {
 
 /* NAVBAR */
 
-.main-date {
-  display: block;
-}
-
 .nw-navbar {
   background-color: #f72210;
   position: sticky;
@@ -39,7 +35,6 @@ img {
 
 .nw-logo {
   fill: #fff;
-  display: block;
   width: 396px;
   height: 60px;
   margin-bottom: 7px;
@@ -135,17 +130,10 @@ img {
   padding-top: 10px;
 }
 
-.news-container,
-.convo-container,
-.vid-info-container,
-.ep-cont,
-.fs-cont,
-.us-cont,
-.subs-cont,
-.foot-cont,
-.mag-cont {
+.nw-container {
   padding: 0;
   max-width: 95%;
+  padding-bottom: 1rem;
 }
 
 .news-caption:hover {
@@ -245,7 +233,6 @@ img {
 /* RIGHT */
 
 .opinion-card {
-  display: flex;
   border-bottom: 1px solid gray;
   margin-bottom: 20px;
 }
@@ -274,7 +261,6 @@ img {
 
 .latest-card,
 .more-news-card {
-  display: flex;
   padding-bottom: 8px;
   border-bottom: 1px solid gray;
   margin-top: 10px;
@@ -306,10 +292,7 @@ img {
 
 /* NEWSWEEK TITLE */
 
-.n-title {
-  display: flex;
-  justify-content: center;
-}
+
 
 .n-icon {
   display: block;
@@ -350,7 +333,6 @@ img {
 
 .vid-cover {
   background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
-  display: block;
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -358,7 +340,6 @@ img {
 }
 
 .vid-pic {
-  display: block;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -535,7 +516,6 @@ img {
 }
 
 .brand-svg {
-  display: block;
   width: 236px;
   height: 36px;
   margin-right: 15px;
@@ -589,6 +569,13 @@ img {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .nw-logo {
+    width: 132px !important;
+    height: 20px !important;
+  }
+}
+
 @media screen and (max-width: 755px) {
   .vid-cover {
     max-width: 486px;
@@ -639,15 +626,4 @@ img {
     justify-content: start !important;
   }
 
-  @media screen and (min-width: 992px) {
-    .nw-logo {
-      width: 396px;
-      height: 60px;
-      margin: 10px 0 10px 0;
-    }
-
-    .right-auth {
-      margin-bottom: 10px;
-    }
-  }
 }
