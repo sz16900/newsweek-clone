@@ -80,10 +80,6 @@ img {
   margin-bottom: 0;
 }
 
-.topics li {
-  display: inline;
-}
-
 .topics-li a {
   font-weight: bold;
   font-size: 20px;
@@ -98,14 +94,12 @@ img {
 }
 
 .social-icons li {
-  display: inline;
   text-decoration: none;
   margin-left: 10px;
 }
 
 .editions-li li,
 .foot-menu li {
-  display: inline;
   text-decoration: none;
   margin-left: 10px;
   padding-right: 10px;
