@@ -22,35 +22,27 @@ a:hover {
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
 /* NAVBAR */
+
+.main-date {
+  display: block;
+}
 
 .nw-navbar {
   background-color: #f72210;
   position: sticky;
 }
 
-.date {
-  margin-bottom: 10px;
-  margin-left: 10px;
-  font-size: 14px;
-  color: #fff;
-}
-
-#Layer_1 {
-  enable-background: new 0 0 395.6 60;
-}
-
 .nw-logo {
   fill: #fff;
   display: block;
-  width: 132px;
-  height: 20px;
+  width: 396px;
+  height: 60px;
   margin-bottom: 7px;
-}
-
-.arrow-right {
-  height: 20px;
-  width: 14px;
 }
 
 .menu-sm {
@@ -67,35 +59,35 @@ a:hover {
 .sign-in {
   color: white;
   margin-right: 10px;
+  font-size: 17px;
 }
 
 .subscribe {
   background: #fff;
   color: #f72210;
   padding: 0 5px 0 5px;
+  font-size: 17px;
 }
 
 .p-2 {
   padding: 0 0 0 0;
 }
 
-button[data-toggle="collapse"] {
-  background-color: white;
-}
-
 .topics {
   width: 90%;
-  font-size: 21px;
   line-height: 24px;
-  font-weight: bold;
-  font-family: "Roboto Condensed", sans-serif;
   padding: 15px 0 15px;
   margin-bottom: 0;
+}
+
+.topics li {
+  display: inline;
 }
 
 .topics-li a {
   font-weight: bold;
   font-size: 20px;
+  color: black;
 }
 
 .topics-wrapper::after {
@@ -118,11 +110,6 @@ button[data-toggle="collapse"] {
   margin-left: 10px;
   padding-right: 10px;
   border-right: 1px solid gray;
-}
-
-.topics li {
-  display: inline;
-  font-weight: 600;
 }
 
 .topics li:hover {
@@ -148,13 +135,9 @@ button[data-toggle="collapse"] {
 }
 
 /* NEWS CONTAINER */
-img {
-  width: 100%;
-}
 
 .news-title {
   color: rgba(3, 3, 3, 0.4);
-  font-weight: bolder;
   padding-top: 10px;
 }
 
@@ -165,23 +148,10 @@ img {
 .fs-cont,
 .us-cont,
 .subs-cont,
-.foot-cont {
+.foot-cont,
+.mag-cont {
   padding: 0;
   max-width: 95%;
-}
-
-.vi-row {
-  justify-content: space-between;
-}
-
-.news-card {
-  margin: 5px 0 20px 0;
-}
-
-.news-caption {
-  font-weight: bolder;
-  color: #000;
-  margin-top: 5px;
 }
 
 .news-caption:hover {
@@ -215,10 +185,6 @@ img {
 
 /* MIDDLE */
 
-.middle-cont {
-  padding: 0;
-}
-
 .top-story-subtitle:hover {
   color: #f72210;
 }
@@ -238,8 +204,7 @@ img {
 }
 
 .culture-para {
-  font-style: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: rgba(39, 39, 39, 0.5);
   margin-bottom: 10px;
   padding: 0 10px 0 10px;
@@ -260,8 +225,9 @@ img {
 }
 
 .more-news-card h6 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
+  color: black;
 }
 
 .us-card-side h6 {
@@ -280,14 +246,6 @@ img {
   text-decoration: underline;
   text-decoration-color: #f72210;
   cursor: pointer;
-}
-
-.more-news-para {
-  font-size: 14px;
-}
-
-.more-news-pic {
-  float: left;
 }
 
 /* RIGHT */
@@ -412,15 +370,6 @@ img {
   background-repeat: no-repeat;
 }
 
-/* EDITOR'S PICK */
-
-.ep-card h5 {
-  margin-top: 10px;
-  color: black;
-  font-weight: bold;
-  font-size: 24px;
-}
-
 /* SLIDESHOWS */
 
 .fs-card h5,
@@ -430,9 +379,9 @@ img {
 }
 
 .fs-card h5 {
-  color: black;
+  font-size: 22px;
+  color: #000;
   font-weight: bold;
-  font-size: 24px;
 }
 
 /* US */
@@ -451,6 +400,21 @@ img {
   color: black;
   font-weight: bold;
   font-size: 20px;
+}
+
+/* EDITOR'S PICK */
+
+.ep-card h5 {
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.feature-card h4 {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
 }
 
 .vid-content h5:hover,
@@ -488,20 +452,6 @@ img {
 }
 
 /* IN THE MAGAZINE */
-
-.mag-cont {
-  padding: 0;
-  max-width: 95%;
-}
-
-.mag-cover {
-  padding: 0;
-}
-
-.feature-card {
-  padding-right: 0;
-  margin: 0;
-}
 
 .category {
   font: bold 16px/26px "Roboto Condensed", sans-serif;
@@ -691,90 +641,19 @@ img {
     height: 172px;
   }
 
-  /* this is to stop the edges from having an weird padding which throws off the layout */
-  .col,
-  .col-1,
-  .col-10,
-  .col-11,
-  .col-12,
-  .col-2,
-  .col-3,
-  .col-4,
-  .col-5,
-  .col-6,
-  .col-7,
-  .col-8,
-  .col-9,
-  .col-auto,
-  .col-lg,
-  .col-lg-1,
-  .col-lg-10,
-  .col-lg-11,
-  .col-lg-12,
-  .col-lg-2,
-  .col-lg-3,
-  .col-lg-4,
-  .col-lg-5,
-  .col-lg-6,
-  .col-lg-7,
-  .col-lg-8,
-  .col-lg-9,
-  .col-lg-auto,
-  .col-md,
-  .col-md-1,
-  .col-md-10,
-  .col-md-11,
-  .col-md-12,
-  .col-md-2,
-  .col-md-3,
-  .col-md-4,
-  .col-md-5,
-  .col-md-6,
-  .col-md-7,
-  .col-md-8,
-  .col-md-9,
-  .col-md-auto,
-  .col-sm,
-  .col-sm-1,
-  .col-sm-10,
-  .col-sm-11,
-  .col-sm-12,
-  .col-sm-2,
-  .col-sm-3,
-  .col-sm-4,
-  .col-sm-5,
-  .col-sm-6,
-  .col-sm-7,
-  .col-sm-8,
-  .col-sm-9,
-  .col-sm-auto,
-  .col-xl,
-  .col-xl-1,
-  .col-xl-10,
-  .col-xl-11,
-  .col-xl-12,
-  .col-xl-2,
-  .col-xl-3,
-  .col-xl-4,
-  .col-xl-5,
-  .col-xl-6,
-  .col-xl-7,
-  .col-xl-8,
-  .col-xl-9,
-  .col-xl-auto {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .nw-logo {
-    width: 396px;
-    height: 60px;
-    margin: 10px 0 10px 0;
+  .tf-si {
+    justify-content: start !important;
   }
 
-  .right-auth {
-    margin-bottom: 10px;
+  @media screen and (min-width: 992px) {
+    .nw-logo {
+      width: 396px;
+      height: 60px;
+      margin: 10px 0 10px 0;
+    }
+
+    .right-auth {
+      margin-bottom: 10px;
+    }
   }
 }
