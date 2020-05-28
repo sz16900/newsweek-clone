@@ -79,8 +79,9 @@
 👤 **Seth Zea**
 
 - Github: [@sz16900](https://github.com/sz16900)
-- Twitter: [@seth32864900](https://twitter.com/seth32864900)
+- Twitter: [@_sethzea_](https://twitter.com/_sethzea_)
 - Linkedin: [linkedin](https://www.linkedin.com/in/seth-zea-9481a8148/)
+- Email: zea.seth@gmail.com
 
 ---
 
