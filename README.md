@@ -1,10 +1,6 @@
-<img src="https://media.giphy.com/media/9Pk1GBaXV8QGbsoaUF/giphy.gif" width="100%">
-
----
-
 # Newsweek - Bootstrap Clone
 
-> In this project, I am going to make a super responsive clone of the Neewsweek magazine by using Bootstrap. This project is completed by Seth Zea, in partial requirements of the Microverse cirriculum. 
+> In this project, I am going to make a super responsive clone of the Newsweek magazine by using Bootstrap. This project is completed by Seth Zea, in partial requirements of the Microverse cirriculum. 
 
 ---
 
