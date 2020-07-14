@@ -1,6 +1,6 @@
-# Newsweek - Bootstrap Clone
+# [HTML/CSS Project: Newsweek Clone]
 
-> In this project, I am going to make a super responsive clone of the Newsweek magazine by using Bootstrap. This project is completed by Seth Zea, in partial requirements of the Microverse cirriculum. 
+In this project, I am going to make an HTML/CSS Newsweek clone in order to demonstrate mastery of cloning a static website with front-end best practices. For this project I use Bootstrap to handle the moblile-friendly experience. This project is completed by Seth Zea, in partial requirements of the Microverse cirriculum.
 
 ---
 
